@@ -28,11 +28,6 @@ main {
     float: right;
  }
 
- img.work{
-    width: 400px;
-    padding: 25px;
- }
-
  @media(max-width: 450px) {
     main{
         background-color: white;
@@ -45,9 +40,6 @@ main {
         width: 450px;
         height: 300px;
     }
-    img.work{
-        width: auto;
-    }
- }
+}
 
 
