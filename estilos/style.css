@@ -32,9 +32,13 @@ main {
     main{
         background-color: white;
         width: 450px;
-        margin: auto;
+        margin: flex;
         padding: 25px;
         box-shadow: 5px 5px 7px rgb(17, 17, 17);
+    }
+    iframe.edu{
+        width: 450px;
+        height: 300px;
     }
  }
 
