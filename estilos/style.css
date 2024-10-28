@@ -16,7 +16,7 @@ main {
     box-shadow: 5px 5px 7px rgb(65, 65, 73)
 }
  h1{
-    font-size: 2em;
+    font-size: 1.7em;
     color: rgb(17, 0, 255);
  }
 
@@ -39,3 +39,5 @@ h5 {
  img.lado {
     float: right;
  }
+
+
