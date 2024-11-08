@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+body{
+    background-color: rgb(17, 0, 255);
+
+}
+
+main {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 5px 5px 7px rgb(17, 17, 17)
+}
+h1{
+    font-size: 1.7em;
+}
+
+img.exhtml {
+    width: 500px;
+}

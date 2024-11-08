@@ -3,19 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre HTML5</title>
-    <link rel="stylesheet" href="stylesobre.css">
+    <title>Sobre o HTML5</title>
+    <link rel="stylesheet" href="estilos/stylesobre.css">
 </head>
 <body>
     <main>
-        <header>
-            <img src="imagens/curso-em-video-pb.png" alt="curso em Vídeo">
-            <h1>HTML: A Base da Web</h1>
-        </header>
-        <p>A HTML (HyperText Markup Language), ou "Linguagem de Marcação de Hipertexto", é a linguagem principal para a criação e estruturação de páginas web. Criada no início dos anos 90 por Tim Berners-Lee, a HTML revolucionou a comunicação digital ao permitir a organização de conteúdos e links, criando uma estrutura hipertextual que deu origem à World Wide Web.</p>
-        <h2>O que é HTML e como funciona?</h2>
-        <p>HTML não é uma linguagem de programação, mas sim uma linguagem de marcação. Ela organiza o conteúdo da página em uma estrutura hierárquica, dividindo-o em seções e elementos. A HTML usa uma série de "tags" para definir a função e aparência de diferentes partes do conteúdo. Por exemplo, existem tags para cabeçalhos, parágrafos, listas, imagens, links e muito mais.</p>
-        <p>Cada elemento HTML é composto por uma tag de abertura (<) e uma tag de fechamento (/>), com exceção de algumas tags auto-contidas, como a de imagem (<"img">). Estes elementos são aninhados para criar uma hierarquia e formam o "esqueleto" da página.</p>
+       <header>
+        <h1><img src="imagens/curso-em-video-pb.png" alt="Logo"></h1>
+        <h1>O que é HTML5? <img src="imagens/html40.png" alt="HTML"></h1>
+        <p>O HTML5 (Hypertext Markup Language 5) é a versão mais recente da linguagem HTML usada para estruturar e exibir conteúdo na web. Ele traz melhorias significativas em relação às versões anteriores, oferecendo novos elementos, atributos e APIs para criar páginas web mais interativas, acessíveis e ricas. O HTML5 é um marco importante na evolução da web, pois permite desenvolver sites mais rápidos, ricos em multimídia e com melhor acessibilidade, além de oferecer mais controle ao desenvolvedor para personalizar a experiência do usuário. Aqui estão os principais pontos sobre HTML5:</p>
+        <u>Novos Elementos Semânticos</u>
+        <ul>
+            <li><b>Estrutura mais clara e semântica:</b> HTML5 introduz tags como header, footer, article, section, aside, nav e entre outras, que indicam claramente a função de cada parte da página. Isso facilita a organização do conteúdo e melhora a acessibilidade e a SEO (otimização para mecanismos de busca).</li>
+            <li><b>Melhoria na acessibilidade:</b> Elementos semânticos ajudam leitores de tela e outros dispositivos assistivos a entender melhor a estrutura da página, melhorando a experiência para usuários com deficiência.</li>
+        </ul>
+        <u>Multimídia Nativa</u>
+         <ul>
+            <li><b>Tags de Áudio e Vídeo:</b> O HTML5 introduziu as tags audio e video, permitindo incorporar multimídia diretamente na página sem precisar de plugins externos, como o Flash. É possível controlar a reprodução, ajustar volume e até adicionar legendas diretamente pelo HTML.</li>
+        </ul>
+        <u>Elementos de Formulários Melhorados</u>
+        <ul>
+            <li><b>Novos tipos de entrada (input types):</b> HTML5 trouxe novos tipos de campo de entrada, como email, date, number, range, tel, entre outros, que facilitam a criação de formulários e melhoram a experiência do usuário em dispositivos móveis.</li>
+            <li><b>Validação de formulários integrada:</b> Agora, é possível configurar validações básicas diretamente no HTML, como definir um campo como obrigatório (required), especificar um padrão (pattern) e outros atributos de validação.</li>
+        </ul>
+        <u>Canvas e Gráficos</u>
+        <ul>
+            <li><b>Canvas:</b> O comando canvas permite desenhar gráficos, animações e outras imagens dinâmicas usando JavaScript. É usado para criar conteúdo visual interativo, como jogos ou gráficos animados.</li>
+            <li><b>SVG (Scalable Vector Graphics):</b> Suporte embutido para SVG no HTML5 permite a criação e manipulação de gráficos vetoriais escaláveis, que são úteis para logos, ícones e gráficos interativos.</li>
+        </ul>
+        <u>APIs JavaScript Avançadas</u>
+        <ul>
+            <li><b>Geolocation API:</b> Permite que sites obtenham a localização do usuário, com permissão do mesmo, para oferecer conteúdo personalizado, como mapas e serviços locais.</li>
+            <li><b>Web Storage (Local Storage e Session Storage):</b> Alternativa ao uso de cookies, o Web Storage permite armazenar dados de sessão ou persistentes no navegador do usuário, com maior segurança e capacidade de armazenamento.</li>
+            <li><b>Offline e Cache:</b> HTML5 oferece suporte para aplicações que podem funcionar offline usando o Application Cache, essencial para Progressive Web Apps (PWAs).</li>
+            <li><b>Web Workers:</b> Permite rodar scripts em segundo plano sem bloquear a interface do usuário, melhorando a performance de aplicações web.</li>
+            <li><b>API de Arrastar e Soltar (Drag and Drop):</b> HTML5 facilita a implementação de funcionalidades de arrastar e soltar (drag-and-drop) de elementos no navegador.</li>
+        </ul>
+        <u>Compatibilidade e Resposividade</u>
+        <ul>
+            <li><b>Design Responsivo:</b> HTML5 facilita a criação de sites responsivos, que se adaptam a diferentes tamanhos de tela e dispositivos. Ele funciona bem com CSS3 e media queries para criar layouts fluidos e flexíveis.</li>
+            <li><b>Compatibilidade Cross-Browser:</b> Embora nem todos os navegadores tenham suporte completo para todos os recursos HTML5 (especialmente em versões antigas), a maioria dos navegadores modernos é totalmente compatível.</li>
+        </ul>
+        <u>Melhorias em Desempenho e Segurança</u>
+        <ul>
+            <li><b>Carregamento mais Rápido:</b> Com menos dependências de plugins e uma estrutura mais limpa, HTML5 ajuda a reduzir o tempo de carregamento da página.</li>
+            <li><b>Segurança:</b> Muitas APIs do HTML5, como a Web Storage, incluem medidas de segurança mais rigorosas em comparação com cookies, o que aumenta a privacidade e proteção dos dados do usuário.</li>
+        </ul>
+        <u>Progressive Enhancement e Fallbacks</u>
+        <ul>
+            <li><b>Compatibilidade com versões anteriores:</b> HTML5 foi projetado para ser retrocompatível, então elementos antigos ainda funcionam. No entanto, é recomendável usar o HTML5 em conjunto com mecanismos de “fallback” para assegurar que usuários com navegadores mais antigos tenham uma experiência satisfatória.</li>
+        </ul>
+        <u>Exemplos de Sintaxe HTML5:</u>
+         <p>Aqui estão alguns exemplos de novos elementos introduzidos com o HTML5:</p>
+        <img class="exhtml" src="imagens/ExHTML.PNG" alt="Exhtml">
+       </header>
     </main>
 </body>
 </html>
