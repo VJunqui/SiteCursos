@@ -1,2 +1,2 @@
 # SiteCursos
-Primeiro site desenvolvido utilizando HTML5 e CSS3.
+Site desenvolvido durante curso de desenvolvimento web, utilizando HTML5 e CSS.
