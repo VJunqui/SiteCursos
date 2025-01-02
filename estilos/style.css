@@ -28,10 +28,9 @@ main {
     float: right;
  }
 
- @media(max-width: 450px) {
+ @media screen and (max-width: 768px) {
     main{
         background-color: white;
-        width: 450px;
         margin: flex;
         padding: 25px;
         box-shadow: 5px 5px 7px rgb(17, 17, 17);
@@ -40,6 +39,11 @@ main {
         width: 450px;
         height: 300px;
     }
+
+    .container {
+        width: 650px;
+    }
+
 }
 
 
